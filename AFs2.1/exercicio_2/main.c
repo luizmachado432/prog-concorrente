@@ -66,7 +66,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    //processo principal ta esperando os 2 filhos
+    //processo principal ta esperando os 2 filho
     for (int i = 0; i < 2; i++) {
         wait(NULL);
     }
